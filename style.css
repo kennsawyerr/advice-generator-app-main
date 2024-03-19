@@ -68,19 +68,22 @@ p {
 }
 .quote-marks {
   /* width: 40px; */
-  width: 200%;
+  width: 100%;
   margin: 0 auto;
   overflow: hidden;
+  color: white;
 }
 .apostrophe-contain {
-  width: 200px;
+  width: 100%;
   overflow: hidden;
-  border: 1px solid red;
+  border: 1px solid yellow;
+  position: absolute;
+  display: flex;
 }
 hr {
   width: 40%;
-
   border-top: 1px solid white;
+  display: none;
 }
 
 .container {
